@@ -1,0 +1,29 @@
+! urxvt
+URxvt*geometry:         120x24  
+URxvt*urlLauncher:         chromium
+URxvt*scrollBar:        false
+URxvt*scrollBar_right:        true
+URxvt*scrollColor:        #000000
+URxvt*buffered: false
+Xft*dpi : 96
+
+
+Xft*antialias: true
+Xft*hintstyle: hintfull
+Xft*rgba: rgb
+URxvt*border: 0
+URxvt*saveLines: 12000
+
+
+                                                           
+XTerm*loginshell: true
+XTerm*savelines: 16384
+XTerm*faceName:Inconsolata 
+XTerm*faceSize: 10
+
+! #include "/home/lectral/.colors/rb15"
+#include "/home/lectral/.colors/k3"
+
+
+
+
