@@ -25,6 +25,7 @@ Plugin 'vim-airline/vim-airline-themes'
 Plugin 'vim-scripts/Greplace.vim' 
 Plugin 'vim-scripts/dbext.vim'
 Plugin 'kchmck/vim-coffee-script'
+Plugin 'Yggdroot/indentLine'
 call vundle#end()            " required
 filetype plugin indent on    " required
 " vundle END
