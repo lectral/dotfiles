@@ -27,6 +27,8 @@ Plugin 'vim-scripts/dbext.vim'
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'Yggdroot/indentLine'
 Plugin 'hashivim/vim-vagrant'
+Plugin 'pangloss/vim-javascript'
+Plugin 'mxw/vim-jsx'
 call vundle#end()            " required
 filetype plugin indent on    " required
 " vundle END
@@ -44,11 +46,11 @@ set nowrap
 set cc=80
 set noswapfile
 set laststatus=2                                                                
-
 filetype indent on
 colorscheme smyck 
 set number
 let g:ctrlp_working_path_mode = 0 
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git' 
 
 " quick workspace switching
 
@@ -67,5 +69,5 @@ map <F4> :e %:p:s,.h$,.X123X,:s,.cpp$,.h,:s,.X123X$,.cpp,<CR>
 let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<c-b>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
-
-
+"disable beep
+set visualbell
